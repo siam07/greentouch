@@ -147,7 +147,7 @@ body {
         z-index: 2;
     }
 .slide2 {
- top: 10vh;
+    top: 10vh;
     background-position: center;
     background-size: cover;
     border-radius: 5px;
