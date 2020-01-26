@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="photos/favicon.ico" />
+	<title>index</title>
+	<link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
+		<a class="navbar-brand" href="index.html"><img id="logo" src="photos/logo.png"></a>
+		<div class="container-fluid">
+			<a class="navbar-brand" href="index.html"><img id="logo" src=""></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="menu">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#home">Home</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">
+							Brands
+							<span class="caret"></span>
+						</a>
+						<div class="dropdown-menu" aria-labelledby="dropdown_target">
+								<button id="ecstasy" class="dropdown-item"><img class="dropdownimg" src="../static/photos/brandlogo/ecstasy.png"></button>
+								<button id="apex" class="dropdown-item"><img class="dropdownimg" src="../static/photos/brandlogo/apex.png"></button>
+								<button id="vogue" class="dropdown-item"><img class="dropdownimg" src="../static/photos/brandlogo/vogue.png"></button>
+								<button id="yellow" class="dropdown-item"><img class="dropdownimg" src="../static/photos/brandlogo/yellow.jpg"></button>
+								<button id="arong" class="dropdown-item"><img class="dropdownimg" src="../static/photos/brandlogo/arong.png">d</button>
+								<button id="catseye" class="dropdown-item"><img class="dropdownimg" src="../static/photos/brandlogo/catseye.png"></button>
+								<button id="westecs" class="dropdown-item"><img class="dropdownimg" src="../static/photos/brandlogo/westecs.png"></button>
+								<button id="infinity" class="dropdown-item"><img class="dropdownimg" src="../static/photos/brandlogo/infinity.png"></button>
+								<button id="lereve" class="dropdown-item"><img class="dropdownimg" src="../static/photos/brandlogo/lereve.png"></button>
+						</div>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="loginform.html">Account</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Logout</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+	<script type="text/javascript" src="scripts/jquery.min.js"></script>
+	<script>
+		$(window).scroll(function(){
+			$('nav').toggleClass('scrolled',$(this).scrollTop() > 300);
+		});
+
+
+  	</script>
+
+
+
+
+
+	<!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img class="img" src="photos/slides/1.jpg"></div>
+      <div class="swiper-slide"><img class="img" src="photos/slides/2.jpg"></div>
+      <div class="swiper-slide"><img class="img" src="photos/slides/3.jpg"></div>
+      <div class="swiper-slide"><img class="img" src="photos/slides/4.jpg"></div>
+      <div class="swiper-slide"><img class="img" src="photos/slides/5.jpg"></div>
+      <div class="swiper-slide"><img class="img" src="photos/slides/6.jpeg"></div>
+      <div class="swiper-slide"><img class="img" src="photos/slides/7.png"></div>
+      <div class="swiper-slide"><img class="img" src="photos/slides/8.png"></div>
+      <div class="swiper-slide"><img class="img" src="photos/slides/9.jpg"></div>
+      <div class="swiper-slide"><img class="img" src="photos/slides/10.jpg"></div>
+    </div>
+    <!-- Add Arrows -->
+  </div>
+
+	<script src="scripts/swiper.min.js"></script>
+
+
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      spaceBetween: 30,
+      effect: 'fade',
+            autoplay: {
+        delay: 3000,
+        freeMode: true,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  </script>
+
+
+  <div class="swiper-container2" id="swipe2">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide slide2" id="slide2" style="background-image:url(./images/nature-1.jpg)"></div>
+      <div class="swiper-slide slide2" id="slide2" style="background-image:url(./images/nature-2.jpg)"></div>
+      <div class="swiper-slide slide2" id="slide2" style="background-image:url(./images/nature-3.jpg)"></div>
+      <div class="swiper-slide slide2" id="slide2" style="background-image:url(./images/nature-4.jpg)"></div>
+      <div class="swiper-slide slide2" id="slide2" style="background-image:url(./images/nature-5.jpg)"></div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+          <!-- Add Arrows -->
+   <div class="prevnext">
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    </div>
+  <!-- Swiper JS -->
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container2', {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      freeMode: false,
+            navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div id="about">
+		<div class="jumbotron">
+			<h3 class="heading">About</h3>
+			<div class="row">
+				<div class="text-center">
+					<h4 class="heading">Something</h4>
+					<p>sdgdsgs dgd ghjkhWebsite is a hyper-media information storage system linking resources around the world. In website, browsers allow highlighted words or an icon which is called hyper links to display text, video, graphics and sound on a local computer screen. With the introduction of World Wide Web in 1989, the concept of websites has become more popular. On this web, anyone can create a home page, which millions of users can watch on their computers and respond.sbdgjkadgh skdgbshsdgsd ssgsdgsgd sghsghshsfh sdhsdh sd fhsd hsh sdgbkb sgdsg</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+		<div id="about">
+		<div class="jumbotron">
+			<h3 class="heading">About</h3>
+			<div class="row">
+				<div class="text-center">
+					<h4 class="heading">Something</h4>
+					<p>sdgdsgs dgd ghjkhWebsite is a hyper-media information storage system linking resources around the world. In website, browsers allow highlighted words or an icon which is called hyper links to display text, video, graphics and sound on a local computer screen. With the introduction of World Wide Web in 1989, the concept of websites has become more popular. On this web, anyone can create a home page, which millions of users can watch on their computers and respond.sbdgjkadgh skdgbshsdgsd ssgsdgsgd sghsghshsfh sdhsdh sd fhsd hsh sdgbkb sgdsg</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+		<div id="about">
+		<div class="jumbotron">
+			<h3 class="heading">About</h3>
+			<div class="row">
+				<div class="text-center">
+					<h4 class="heading">Something</h4>
+					<p>sdgdsgs dgd ghjkhWebsite is a hyper-media information storage system linking resources around the world. In website, browsers allow highlighted words or an icon which is called hyper links to display text, video, graphics and sound on a local computer screen. With the introduction of World Wide Web in 1989, the concept of websites has become more popular. On this web, anyone can create a home page, which millions of users can watch on their computers and respond.sbdgjkadgh skdgbshsdgsd ssgsdgsgd sghsghshsfh sdhsdh sd fhsd hsh sdgbkb sgdsg</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+
+	<script src="scripts/jquery-3.3.1.slim.min.js"></script>
+	<script src="scripts/bootstrap.min.js"></script>
+</body>
+
+</html>

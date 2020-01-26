@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="photos/favicon.ico" />
+	<title>index</title>
+	<link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+	<nav class="navbar navbar-custom navbar-expand-md fixed-top">
+		<a class="navbar-brand" href="index.html"><img id="logo" src="photos/logo.png"></a>
+		<div class="container-fluid">
+			
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="menu">
+				<ul class="navbar-nav ml-auto">
+
+					<li class="nav-item">
+						<a class="nav-link" href="#home">Home</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">
+							Brands
+							<span class="caret"></span>
+						</a>
+						<div class="dropdown-menu" aria-labelledby="dropdown_target">
+								<button id="ecstasy" class="dropdown-item"><img class="dropdownimg" src="photos/brandlogo/ecstasy.png"></button>
+								<button id="apex" class="dropdown-item"><img class="dropdownimg" src="photos/brandlogo/apex.png"></button>
+								<button id="vogue" class="dropdown-item"><img class="dropdownimg" src="photos/brandlogo/vogue.png"></button>
+								<button id="yellow" class="dropdown-item"><img class="dropdownimg" src="photos/brandlogo/yellow.jpg"></button>
+								<button id="arong" class="dropdown-item"><img class="dropdownimg" src="photos/brandlogo/arong.png">d</button>
+								<button id="catseye" class="dropdown-item"><img class="dropdownimg" src="photos/brandlogo/catseye.png"></button>
+								<button id="westecs" class="dropdown-item"><img class="dropdownimg" src="photos/brandlogo/westecs.png"></button>
+								<button id="infinity" class="dropdown-item"><img class="dropdownimg" src="photos/brandlogo/infinity.png"></button>
+								<button id="lereve" class="dropdown-item"><img class="dropdownimg" src="photos/brandlogo/lereve.png"></button>
+						</div>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="loginform.html">Account</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Logout</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+	<!-- Swiper -->
+
+
+
+  <div class="swiper-container2">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide2">Slide 1</div>
+      <div class="swiper-slide2">Slide 2</div>
+      <div class="swiper-slide2">Slide 3</div>
+      <div class="swiper-slide2">Slide 4</div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+  <!-- Swiper JS -->
+  
+  <!-- Initialize Swiper -->
+  <script>
+    var appendNumber = 4;
+    var prependNumber = 1;
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 3,
+      centeredSlides: true,
+      spaceBetween: 30,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+    document.querySelector('.prepend-2-slides').addEventListener('click', function (e) {
+      e.preventDefault();
+      swiper.prependSlide([
+        '<div class="swiper-slide">Slide ' + (--prependNumber) + '</div>',
+        '<div class="swiper-slide">Slide ' + (--prependNumber) + '</div>'
+        ]);
+    });
+    document.querySelector('.prepend-slide').addEventListener('click', function (e) {
+      e.preventDefault();
+      swiper.prependSlide('<div class="swiper-slide">Slide ' + (--prependNumber) + '</div>');
+    });
+    document.querySelector('.append-slide').addEventListener('click', function (e) {
+      e.preventDefault();
+      swiper.appendSlide('<div class="swiper-slide">Slide ' + (++appendNumber) + '</div>');
+    });
+    document.querySelector('.append-2-slides').addEventListener('click', function (e) {
+      e.preventDefault();
+      swiper.appendSlide([
+        '<div class="swiper-slide">Slide ' + (++appendNumber) + '</div>',
+        '<div class="swiper-slide">Slide ' + (++appendNumber) + '</div>'
+        ]);
+    });
+  </script>
+
+
+
+
+	<script src="scripts/jquery-3.3.1.slim.min.js"></script>
+
+	<script src="scripts/bootstrap.min.js"></script>
+	<script src="scripts/marketplace.js"></script>
+</body>
+
+</html>
