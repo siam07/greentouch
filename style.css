@@ -139,7 +139,7 @@ body {
 #swipe2 {
         position: absolute;
         top: 50vh;
-        left: 10vw;
+        left: 15vw;
         width: 70vw;
         height: 50vh;
         background:transparent;
@@ -147,10 +147,10 @@ body {
         z-index: 2;
     }
 .slide2 {
-  top: 10vh;
-  left: 5vw;
+ top: 10vh;
     background-position: center;
     background-size: cover;
+    border-radius: 5px;
     width: 300px;
     height: 200px;
 }
