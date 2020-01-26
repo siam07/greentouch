@@ -138,15 +138,17 @@ body {
 
 #swipe2 {
         position: absolute;
-        top: 60vh;
-        left: 15vw;
+        top: 50vh;
+        left: 10vw;
         width: 70vw;
-        height: 35vh;
+        height: 50vh;
         background:transparent;
         overflow: hidden;
         z-index: 2;
     }
 .slide2 {
+  top: 10vh;
+  left: 5vw;
     background-position: center;
     background-size: cover;
     width: 300px;
@@ -162,4 +164,41 @@ body {
 }
 .swiper-button-prev{
     left: 13vw;
+}
+
+
+
+
+
+
+.slide2{
+    overflow: hidden;
+    transition: 0.3s;
+}
+.slide2:hover{
+  cursor: pointer;
+  transform: scale(1.5);
+  background: rgba(0, 0, 0, 0.9);;
+  box-shadow: 5px 10px 10px black;
+  z-index: 3;
+}
+
+
+.details{
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    border-radius: 10px;
+    background: rgba(0,0,0,.9);
+    transform: translateY(-50%);
+    transform: scaleY(0);
+    transition: transform .5s;
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+    z-index: 4;
+}
+.slide2:hover .details{
+    transform: scaleY(1.5);
 }
