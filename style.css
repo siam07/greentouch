@@ -205,11 +205,22 @@ body {
 
 
 
+
+.mvoSection{
+  position: absolute;
+  background: url(photos/bg.jpg);
+background-size: cover;
+
+}
 .heading{
   font-size: 2.5rem;
   font-weight: bold;
 }
 .about{
+  margin-top: 2vh; 
   margin-left: 2vw;
   margin-right: 2vw;
+  justify-content: center;
+  background: rgba(255,255,255,.2);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
 }
