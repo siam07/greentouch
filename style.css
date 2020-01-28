@@ -207,11 +207,11 @@ body {
 .slide2{
     overflow: hidden;
     transition: 0.3s;
+    background-position: cover;
 }
 .slide2:hover{
   cursor: pointer;
   transform: translate(120px, 0) scale(2);
-  background: rgba(0, 0, 0, 0.9);;
   box-shadow: 5px 10px 10px black;
   z-index: 3;
 }
@@ -233,17 +233,16 @@ body {
     z-index: 4;
 }
 .details h1{
-  position: absolute;
-  top: 10px;
   font-size: 10px;
 }
 .details p{
-  position: relative;
-  top: 8px;
+
+
   font-size: 7px;
 }
 .slide2:hover .details{
-    transform: scaleY(2);
+    transform: scaleX(2);
+    transform: scaleY(1.7);
 }
 
 
