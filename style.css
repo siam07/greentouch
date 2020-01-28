@@ -144,6 +144,7 @@ body {
         height: 50vh;
         background:transparent;
         overflow: hidden;
+        
         z-index: 2;
     }
 .slide2 {
@@ -177,7 +178,7 @@ body {
 }
 .slide2:hover{
   cursor: pointer;
-  transform: scale(1.5);
+  transform: translate(50px, 0) scale(1.3);
   background: rgba(0, 0, 0, 0.9);;
   box-shadow: 5px 10px 10px black;
   z-index: 3;
@@ -200,7 +201,7 @@ body {
     z-index: 4;
 }
 .slide2:hover .details{
-    transform: scaleY(1.5);
+    transform: scaleY(1.3);
 }
 
 
