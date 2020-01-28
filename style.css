@@ -53,7 +53,7 @@
     background-color: transparent !important; 
 } 
 .navbar-dark.scrolled { 
-    background-color: #10caca  !important; 
+    background-color: #36a353 !important; 
 } 
 
 
@@ -209,7 +209,7 @@ body {
 
 .mvoSection{
   position: absolute;
-  background: url(photos/bg.jpg);
+  background: url(photos/bg2.jpg);
 background-size: cover;
 
 }
