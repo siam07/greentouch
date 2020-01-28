@@ -13,7 +13,7 @@
 </head>
 <body>
 	<nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
-		<a class="navbar-brand" href="index.html"><img id="logo" src="photos/logo.png"></a>
+		<a class="navbar-brand" href="index.html"><img class="logo" src="photos/logo.png"></a>
 		<div class="container-fluid">
 			<a class="navbar-brand" href="index.html"><img id="logo" src=""></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
@@ -57,6 +57,9 @@
 	<script>
 		$(window).scroll(function(){
 			$('nav').toggleClass('scrolled',$(this).scrollTop() > 300);
+		});
+		$(window).scroll(function(){
+			$('img').toggleClass('scrolled',$(this).scrollTop() > 300);
 		});
 
 
