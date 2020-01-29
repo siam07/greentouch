@@ -299,3 +299,197 @@ background-size: cover;
   padding-right: 8vw;
   padding-top: 2vw;
 }
+
+
+
+
+
+
+
+/*ORGANO*/
+
+.organo{
+  position: relative;
+  float: right;
+  top: 1vh;
+  right: 1vw;
+  width: 30vw;
+  height: 74vh;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1.2vw;
+  color: white;
+  background-color: #4a077a;
+  border-radius: 10px;
+}
+
+
+
+#verticallineLvl1{
+  position: absolute;
+  left: 1.2rem;
+  top: 3.4rem;
+  width: 7px;
+  height: 70px;
+  background-color: white;
+}
+#verticallineLvl1 #horizontalline{
+  position: absolute;
+  width: 25px;
+  height: 7px;
+  background-color: white;
+}
+#verticallineLvl1 #horizontalline2{
+  position: absolute;
+  width: 80px;
+  top: 4rem;
+  height: 7px;
+  background-color: white;
+}
+
+#verticallineLvl2{
+  position: absolute;
+  left: 5.7rem;
+  top: 7.5rem;
+  width: 4px;
+  height: 19.3rem;
+  background-color: white;
+}
+
+#verticallineLvl2 #horizontalline{
+  position: absolute;
+  width: 65px;
+  top: 3.4rem;
+  height: 4px;
+  background-color: white;
+}
+#verticallineLvl2 #horizontalline1{
+  position: absolute;
+  width: 65px;
+  top: 12rem;
+  height: 4px;
+  background-color: white;
+}
+
+#verticallineLvl2 #horizontalline2{
+  position: absolute;
+  width: 65px;
+  top: 19.2rem;
+  height: 4px;
+  background-color: white;
+}
+
+
+
+
+#verticallineLvl3{
+  position: absolute;
+  left: 10.5rem;
+  top: 13rem;
+  width: 2px;
+  height: 3.6rem;
+  background-color: white;
+}
+
+#verticallineLvl3 #horizontalline{
+  position: absolute;
+  width: 13px;
+  top: 10px;
+  height: 2px;
+  background-color: white;
+}
+#verticallineLvl3 #horizontalline1{
+  position: absolute;
+  width: 13px;
+  top: 2rem;
+  height: 1px;
+  background-color: white;
+}
+
+#verticallineLvl3 #horizontalline2{
+  position: absolute;
+  width: 13px;
+  top: 3.5rem;
+  height: 1px;
+  background-color: white;
+}
+#verticallineLvl4{
+  position: absolute;
+  left: 10.5rem;
+  top: 21.7rem;
+  width: 2px;
+  height: 2rem;
+  background-color: white;
+}
+
+#verticallineLvl4 #horizontalline{
+  position: absolute;
+  width: 13px;
+  top: .5rem;
+  height: 1px;
+  background-color: white;
+}
+#verticallineLvl4 #horizontalline1{
+  position: absolute;
+  width: 13px;
+  top: 2rem;
+  height: 1px;
+  background-color: white;
+}
+#verticallineLvl5{
+  position: absolute;
+  left: 10.5rem;
+  top: 29.1rem;
+  width: 2px;
+  height: 3.2rem;
+  background-color: white;
+}
+
+#verticallineLvl5 #horizontalline{
+  position: absolute;
+  width: 13px;
+  top: .5rem;
+  height: 1px;
+  background-color: white;
+}
+#verticallineLvl5 #horizontalline1{
+  position: absolute;
+  width: 13px;
+  top: 1.9rem;
+  height: 1px;
+  background-color: white;
+}
+#verticallineLvl5 #horizontalline2{
+  position: absolute;
+  width: 13px;
+  top: 3.2rem;
+  height: 1px;
+  background-color: white;
+}
+
+
+
+
+
+.organo li{
+  padding: 15px;
+}
+.organo l{
+  color: #cccbca;
+  font-size: 1.1vw;
+}
+.organo l1{
+  padding-top: 10px;
+  margin-left: 20px; 
+  color: #cccbca;
+  font-size: 1.1vw;
+}
+
+#level2{
+  padding-top: 20px;
+}
+
+
+
+
+/*ORGANO End*/
