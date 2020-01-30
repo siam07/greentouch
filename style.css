@@ -1,3 +1,7 @@
+
+/*HOME page Start*/
+
+
 .logo{
     position: fixed;
     top: 1rem;
@@ -116,6 +120,7 @@
 html, body {
   position: relative;
   height: 100%;
+    scroll-behavior: smooth;
 }
 body {
   background: #eee;
@@ -278,6 +283,16 @@ background-size: cover;
 }
 
 
+
+
+
+
+
+/*footer*/
+
+
+
+
 .footer{
     background-color: #505962;
     padding: 1rem 2rem;
@@ -303,23 +318,47 @@ background-size: cover;
 
 
 
+/*HOME page End*/
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*About page Start*/
+
+
+.aboutContainer{
+  background: url(photos/bg2.jpg) fixed center;
+  background-size: cover;
+}
 
 
 /*ORGANO*/
 
 .organo{
-  position: relative;
+  position: fixed;
   float: right;
   top: 1vh;
   right: 1vw;
-  width: 30vw;
-  height: 74vh;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-size: 1.2vw;
+  width: 29rem;
+  height: 94.5vh;
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh;
+  text-shadow: 5px 5px 20px #01660e;
+  font-size: 1.14rem;
   color: white;
-  background-color: #4a077a;
+  background-color: #36a353;
   border-radius: 10px;
 }
 
@@ -328,20 +367,20 @@ background-size: cover;
 #verticallineLvl1{
   position: absolute;
   left: 1.2rem;
-  top: 3.4rem;
+  top: 3.3rem;
   width: 7px;
-  height: 70px;
+  height: 4rem;
   background-color: white;
 }
 #verticallineLvl1 #horizontalline{
   position: absolute;
-  width: 25px;
+  width: 1.8rem;
   height: 7px;
   background-color: white;
 }
 #verticallineLvl1 #horizontalline2{
   position: absolute;
-  width: 80px;
+  width: 5rem;
   top: 4rem;
   height: 7px;
   background-color: white;
@@ -355,7 +394,6 @@ background-size: cover;
   height: 19.3rem;
   background-color: white;
 }
-
 #verticallineLvl2 #horizontalline{
   position: absolute;
   width: 65px;
@@ -469,27 +507,102 @@ background-size: cover;
 
 
 
+.organolink{
+  text-decoration: none; 
+  color: white
+}
+
+.organolink:hover{ 
+  transition: .3s;
+  border: 1px solid #34eb6b;
+  border-radius: 5px;
+  background-color: #34eb6b;
+  color: white;
+}
 
 
 .organo li{
+  text-decoration: none;
   padding: 15px;
 }
 .organo l{
   color: #cccbca;
-  font-size: 1.1vw;
+  font-size: 1.1rem;
 }
 .organo l1{
   padding-top: 10px;
   margin-left: 20px; 
   color: #cccbca;
-  font-size: 1.1vw;
+  font-size: 1.1rem;
 }
 
 #level2{
   padding-top: 20px;
+
 }
 
 
 
 
 /*ORGANO End*/
+
+
+
+#chair{
+  background-color: white;
+  width: 66.5vw;
+  height: 100vh;
+  border-radius: 10px;
+  margin-top: .5rem;
+  margin-left: .5rem;
+  background: rgba(255,255,255,.2);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+#md{
+  background-color: black;
+  width: 66.5vw;
+  height: 100vh;
+  border-radius: 10px;
+  margin-top: 1rem;
+  margin-left: .5rem;
+  background: rgba(255,255,255,.2);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+#dir{
+  background-color: red;
+  width: 66.5vw;
+  height: 100vh;
+  border-radius: 10px;
+  margin-top: 1rem;
+  margin-left: .5rem;
+  background: rgba(255,255,255,.2);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+#dir2{
+  background-color: green;
+  width: 66.5vw;
+  height: 100vh;
+  border-radius: 10px;
+  margin-top: 1rem;
+  margin-left: .5rem;
+  background: rgba(255,255,255,.2);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+#coo{
+  background-color: blue;
+  width: 66.5vw;
+  margin-left: .5rem;
+  height: 100vh;
+  border-radius: 10px;
+  margin-top: 1rem;
+  margin-bottom: .7rem;
+  background: rgba(255,255,255,.2);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+
+
+
+
+
+
+/*About page End*/
