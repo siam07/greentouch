@@ -360,8 +360,40 @@ background-size: cover;
   color: white;
   background-color: #36a353;
   border-radius: 10px;
+  z-index: 1;
 }
 
+@media screen and (max-width: 1500px) {
+  .organo{
+    position: relative;
+    float: none;
+    top: 1vh;
+    left: 1vw;
+    width: 29rem;
+    height: 94.5vh;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    margin-bottom: 1rem;
+    text-shadow: 5px 5px 20px #01660e;
+    font-size: 1.14rem;
+    color: white;
+    background-color: #36a353;
+    border-radius: 10px;
+    z-index: 1;
+  }
+  .aboutSections{
+    background-color: white;
+    width: 66.5vw;
+    height: 100vh;
+    border-radius: 10px;
+    margin-top: .5rem;
+    margin-bottom: .8rem;
+    margin-left: .5rem;
+    background: rgba(255,255,255,.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    z-index: 2;
+  }
+}
 
 
 #verticallineLvl1{
@@ -546,61 +578,26 @@ background-size: cover;
 
 /*ORGANO End*/
 
-
-
-#chair{
+.aboutSections{
   background-color: white;
   width: 66.5vw;
   height: 100vh;
   border-radius: 10px;
   margin-top: .5rem;
+  margin-bottom: .8rem;
   margin-left: .5rem;
   background: rgba(255,255,255,.2);
   box-shadow: 0 5px 15px rgba(0,0,0,0.5);
-}
-#md{
-  background-color: black;
-  width: 66.5vw;
-  height: 100vh;
-  border-radius: 10px;
-  margin-top: 1rem;
-  margin-left: .5rem;
-  background: rgba(255,255,255,.2);
-  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
-}
-#dir{
-  background-color: red;
-  width: 66.5vw;
-  height: 100vh;
-  border-radius: 10px;
-  margin-top: 1rem;
-  margin-left: .5rem;
-  background: rgba(255,255,255,.2);
-  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
-}
-#dir2{
-  background-color: green;
-  width: 66.5vw;
-  height: 100vh;
-  border-radius: 10px;
-  margin-top: 1rem;
-  margin-left: .5rem;
-  background: rgba(255,255,255,.2);
-  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
-}
-#coo{
-  background-color: blue;
-  width: 66.5vw;
-  margin-left: .5rem;
-  height: 100vh;
-  border-radius: 10px;
-  margin-top: 1rem;
-  margin-bottom: .7rem;
-  background: rgba(255,255,255,.2);
-  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+  z-index: 2;
 }
 
 
+@media screen and (max-width: 1500px) {
+  .aboutSections{
+    width: 95vw;
+    margin-left: 1rem;
+  }
+}
 
 
 
