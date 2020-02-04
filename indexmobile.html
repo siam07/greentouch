@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="photos/favicon.ico">
+	<title>Greetouch Ltd.</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="stylem.css">
+</head>
+<body>
+	<nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
+		<a class="navbar-brand" href="index.html"><img class="logo" src="photos/logo.png"></a>
+		<div class="container-fluid">
+			<a class="navbar-brand" href="index.html"><img id="logo" src=""></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="menu">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#home">Home</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">
+							COMPANIES
+							<span class="caret"></span>
+						</a>
+						<div class="dropdown-menu" aria-labelledby="dropdown_target">
+								<button id="company" class="dropdown-item">Greentouch Corporation</button>
+								<button id="company" class="dropdown-item">Greentouch EXIM</button>
+								<button id="company" class="dropdown-item">Greentouch Design</button>
+								<button id="company" class="dropdown-item">Greentouch Stone</button>
+								<button id="company" class="dropdown-item">Greentouch Transport</button>
+						</div>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="loginform.html">Accomplishments</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+	<script type="text/javascript" src="scripts/jquery.min.js"></script>
+	<script>
+		$(window).scroll(function(){
+			$('nav').toggleClass('scrolled',$(this).scrollTop() > 300);
+		});
+		$(window).scroll(function(){
+			$('img').toggleClass('scrolled',$(this).scrollTop() > 300);
+		});
+
+
+  	</script>
+
+
+
+
+
+	<!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img class="img" src="photos/slides/1.JPG"></div>
+      <div class="swiper-slide"><img class="img" src="photos/slides/2.jpg"></div>
+      <div class="swiper-slide"><img class="img" src="photos/slides/3.jpg"></div>
+      <div class="swiper-slide"><img class="img" src="photos/slides/4.JPG"></div>
+      <div class="swiper-slide"><img class="img" src="photos/slides/5.jpg"></div>
+      <div class="swiper-slide"><img class="img" src="photos/slides/6.jpg"></div>
+      <div class="swiper-slide"><img class="img" src="photos/slides/7.jpg"></div>
+      <div class="swiper-slide"><img class="img" src="photos/slides/8.JPG"></div>
+      <div class="swiper-slide"><img class="img" src="photos/slides/9.jpg"></div>
+      <div class="swiper-slide"><img class="img" src="photos/slides/10.jpg"></div>
+      <div class="swiper-slide"><img class="img" src="photos/slides/11.jpg"></div>
+    </div>
+    <!-- Add Arrows -->
+  </div>
+
+	<script src="scripts/swiper.min.js"></script>
+
+
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      spaceBetween: 30,
+      effect: 'fade',
+            autoplay: {
+        delay: 3000,
+        freeMode: true,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  </script>
+
+
+  <div class="swiper-container2" id="swipe2">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide slide2" id="slide2" style="background-image:url(photos/company/ph.png)">
+      	<div class="details">    
+       		<h1>Greentouch Corporation Ltd.</h1>
+            <p>sdgsjlkdgjksd gklskjdgbskdng jklsbn gdljbskdg ljkbsd gbkjs gjksb gdkjsbd gkjbjks bks bgdksbgk</p>
+        </div>
+      </div>
+      <div class="swiper-slide slide2" id="slide2" style="background-image:url(photos/company/ph.png)">
+      	<div class="details">    
+       		<h1>Greentouch EXIM Ltd.</h1>
+            <p>sdgsjlkdgjksd gklskjdgbskdng jklsbn gdljbskdg ljkbsd gbkjs gjksb gdkjsbd gkjbjks bks bgdksbgk</p>
+        </div>
+      </div>
+      <div class="swiper-slide slide2" id="slide2" style="background-image:url(photos/company/ph.png)">
+      	<div class="details">    
+       		<h1>Greentouch Design Ltd.</h1>
+            <p>sdgsjlkdgjksd gklskjdgbskdng jklsbn gdljbskdg ljkbsd gbkjs gjksb gdkjsbd gkjbjks bks bgdksbgk</p>
+        </div>
+      </div>
+      <div class="swiper-slide slide2" id="slide2" style="background-image:url(photos/company/ph.png)">
+      	<div class="details">    
+       		<h1>Greentouch Stone Ltd.</h1>
+            <p>sdgsjlkdgjksd gklskjdgbskdng jklsbn gdljbskdg ljkbsd gbkjs gjksb gdkjsbd gkjbjks bks bgdksbgk</p>
+        </div>
+      </div>
+      <div class="swiper-slide slide2" id="slide2" style="background-image:url(photos/company/transport.jpg)">
+      	<div class="details">    
+       		<h1>Greentouch Transport Ltd.</h1>
+            <p>sdgsjlkdgjksd gklskjdgbskdng jklsbn gdljbskdg ljkbsd gbkjs gjksb gdkjsbd gkjbjks bks bgdksbgk</p>
+        </div>
+      </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+          <!-- Add Arrows -->
+<div class="next">
+	<div class="swiper-button-next"></div>
+</div>
+<div class="prev">
+	<div class="swiper-button-prev"></div>
+</div>
+    
+  <!-- Swiper JS -->
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container2', {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      freeMode: true,
+            navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  </script>
+
+
+
+
+
+<div class="mvoSection">
+		<div class="row rowlength">
+			<div class="col-md-4 text-center descript about">
+				<h3 class="heading">MISSION</h3>
+				<p>The Mission of Greentouch Group is to provide excellence and quality through innovation, integrity and forward-thinking approach. We believe by this every day, engaging with diversity, utilizing technology and innovation through collaboration in order to excel industry-standard, Greentouch Group transcends multiple industries. This allows our organization to utilize best practices from multiple industries to be creative in the way approach meeting our goals, mission, and value.</p>
+			</div>
+			<div class="col-md-4 text-center descript about">
+				<h3 class="heading">VISION</h3>
+				<p>Greentouch Group is an enterprise with a solid presence in various sectors of the Bangladeshi economy, which includes a strong engagement in the Greentouch Corporation Ltd. Greentouch EXIM Ltd. and Greentouch Design Ltd. Greentouch Stone Crusher,  and Greentouch Transport sectors of the economy and it began more than 17 years ago in the year of 2003. Over the years of success through leaders, innovation and customer satisfaction, the company evolved into a true conglomerate via diversifying from its core business operations and venturing into other fruitful enterprises.</p>
+			</div>
+			<div class="col-md-4 text-center descript about">
+				<h3 class="heading">OVERVIEW</h3>
+				<p>Greentouch Group is an enterprise with a solid presence in various sectors of the Bangladeshi economy, which includes a strong engagement in the Greentouch Corporation Ltd. Greentouch EXIM Ltd. and Greentouch Design Ltd. Greentouch Stone Crusher,  and Greentouch Transport sectors of the economy and it began more than 17 years ago in the year of 2003. Over the years of success through leaders, innovation and customer satisfaction, the company evolved into a true conglomerate via diversifying from its core business operations and venturing into other fruitful enterprises.</p>
+			</div>
+		</div>
+
+
+			<div class="container-fluid footer">
+				<div class="footerlogo"><img src="photos/logo.png"></div>
+			<div class="row">
+				<div class="col-md-6 txt1">
+					<h1>Greentouch Corporation Ltd.</h1>
+					<p>Place, Dhaka-postalcode, Bangladesh<br><i class="fa fa-phone"></i> +880-0-00000000   |    <i class="fa fa-fax"></i> Fax: +880-0-00000000<br><i class="fa fa-envelope"></i> name@name.com</p>
+				</div>
+				<div class="col-md-6 txt2">
+					<p>Developed & Maintained by GT Office, DHAKA<br>© 2020 Greentouch Corporation Ltd. All rights reserved.</p>
+				</div>
+			</div>
+			
+		</div>
+</div>
+
+
+
+
+
+
+	<script src="scripts/jquery-3.3.1.slim.min.js"></script>
+	<script src="scripts/bootstrap.min.js"></script>
+</body>
+
+</html>
