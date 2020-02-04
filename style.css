@@ -354,8 +354,8 @@ background-size: cover;
 .mainmenubutton{
     position: fixed;
     float: left;
-    margin-top: 10px;
-    margin-left: 2vw;
+    margin-top: .5vw;
+    margin-left: 1vw;
     font-size: 1rem;
     color: white;
     background-color: #36a353;
@@ -623,9 +623,8 @@ background-size: cover;
 .aboutSections{
   background-color: white;
   width: 66.5vw;
-  height: 100vh;
+  height: 50vw;
   border-radius: 10px;
-  margin-top: .5rem;
   margin-bottom: .8rem;
   margin-left: .5rem;
   background: rgba(255,255,255,.2);
@@ -642,6 +641,14 @@ background-size: cover;
 }
 
 
+.aboutSections p{
+  font-family: gothic;
+  padding: 3rem;
+  font-weight: normal;
+  margin-top: 10px; 
+  font-size: 1.5vw;
+  text-shadow: 5px 5px 20px white;
+}
 
 
 /*About page End*/
