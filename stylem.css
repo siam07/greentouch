@@ -396,7 +396,7 @@ background-size: cover;
 
 .organoimg{
   position: fixed;
-  left: 12.5vw;
+  left: 3.5rem;
   top: -.5vw;
   width: 75vw;
   z-index: 2;
@@ -406,7 +406,7 @@ background-size: cover;
   position: relative;
   background-color: white;
   width: 96vw;
-  height: 100vh;
+  height: 70vh;
   top: 22rem;
   border-radius: 10px;
   margin-bottom: .8rem;
@@ -422,7 +422,7 @@ background-size: cover;
   padding: 3vw;
   font-weight: normal;
   margin-top: 10px; 
-  font-size: .7rem;
+  font-size: .9rem;
   text-shadow: 5px 5px 20px white;
 }
 
