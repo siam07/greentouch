@@ -385,6 +385,7 @@ background-size: cover;
 .organoimg{
   position: fixed;
   top: -.5vw;
+  width: 96vw;
   height: 40vh;
   margin: 9px;
   border-radius: 10px;
