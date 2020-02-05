@@ -182,7 +182,7 @@ body {
 
 #swipe2 {
         position: absolute;
-        top: 62vh;
+        top: 63vh;
         left: 30vw;
         width: 40vw;
         height: 30vh;
@@ -201,12 +201,12 @@ body {
 .prev{
     position: relative;
     text-align: left;
-    top: -8vh;
+    top: -7vh;
 }
 .next{
     position: relative;
     text-align: right;
-    top: -8vh;
+    top: -7vh;
 }
 
 .swiper-button-next{
