@@ -286,7 +286,7 @@ position: relative;
 
 
 .descriptionOverlay{
-  display: none;
+  display: block;
   position: absolute;
   top: 10vh;
   z-index: 5;
@@ -354,7 +354,7 @@ position: relative;
   font-weight: 900;
   text-transform: uppercase;
   text-align: center;
-  top: -45vw;
+  top: -90vh;
   left: 4vw;
   width: 20vw;
   text-shadow: 1px 1px 5px #919191,
