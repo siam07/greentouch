@@ -286,7 +286,7 @@ position: relative;
 
 
 .descriptionOverlay{
-  display: block;
+  display: none;
   position: absolute;
   top: 10vh;
   z-index: 5;
