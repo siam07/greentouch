@@ -321,7 +321,6 @@ position: relative;
   border-radius: 5px;
   margin-left: 27.5vw;
   margin-right: 27.5vw;
-  background: white;
   box-shadow: 0 5px 15px rgba(0,0,0,0.5);
   margin-top: 2vh;
   margin-bottom: 2vh; 
@@ -354,11 +353,11 @@ position: relative;
 
 
 
-.gtl img{
-  position: relative;
-  border-radius: 5px;
-  padding: 0;
-  height: 100vh;
+.gtl{
+  height: 125vh;
+  background: url(photos/company/transportbg.jpg);
+  background-repeat: no-repeat;
+  background-size: 45vw 125vh;
   z-index: 5;
 }
 
@@ -369,7 +368,7 @@ position: relative;
   font-weight: 900;
   text-transform: uppercase;
   text-align: center;
-  top: -90vh;
+  top: 8vh;
   left: 4vw;
   width: 20vw;
   text-shadow: 1px 1px 5px #919191,
@@ -395,8 +394,7 @@ position: relative;
   font-family: gothic;
   color: black;
   font-weight: bold;
-  top: -8vw;
-  height: 2vw;
+  top: 74vh;
   font-size: 1vw;
   cursor: default;
   transition: .4s;
@@ -412,6 +410,270 @@ position: relative;
 
 }
 
+
+
+
+
+
+
+
+
+
+
+.gcl{
+  height: 125vh;
+  background: url(photos/company/corporationbg.jpg);
+  background-repeat: no-repeat;
+  background-size: 45vw 125vh;
+  z-index: 5;
+}
+#gcl h1{
+  position: relative;
+  font-family: gothic;
+  color: white;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  top: 8vh;
+  left: 8vw;
+  text-shadow: 1px 1px 20px black,
+  1px 2px 1px #919191,
+  1px 3px 1px #919191,
+  1px 4px 1px #919191;
+  font-size: 1.5vw;
+  transition: 1s ease-in-out;
+  cursor: default;
+  z-index: 6;
+}
+#gcl span{
+  position: absolute;
+  font-family: gothic;
+  color: white;
+  font-weight: 900;
+  top: 15vh;
+  left: 32vw;
+  text-shadow: 1px 1px 5px #919191,
+  1px 2px 1px #919191,
+  1px 3px 1px #919191,
+  1px 4px 1px #919191,
+  1px 5px 1px #919191,
+  1px 6px 1px #919191,
+  1px 12px 6px rgba(16,16,16,0.4),
+  1px 16px 10px rgba(16,16,16,0.2),
+  1px 19px 35px rgba(16,16,16,0.2),
+  1px 23px 60px rgba(16,16,16,0.4);
+  cursor: default;
+  z-index: 6;
+}
+#gcl p{
+  position: relative;
+  font-family: gothic;
+  color: white;
+  padding: 20px;
+  text-align: justify;
+  font-weight: bold;
+  top: 42vh;
+  font-size: 1vw;
+  cursor: default;
+  transition: .4s;
+  z-index: 6;
+}
+#gcl p:hover{
+  transform:scale(1.05);
+}
+
+
+#ltr1{
+  position: absolute;
+  display: inline-block;
+  font-size: 2vw;
+  left: 50vw;
+  transform: rotate(45deg);
+}
+#ltr2{
+  position: absolute;
+  display: inline-block;
+  font-size: 2vw;
+  padding-top: .6vw;
+  padding-left: 1.8vw;
+  transform: rotate(45deg);
+}
+#ltr3{
+  position: absolute;
+  display: inline-block;
+  font-size: 2vw;
+  padding-top: 1.1vw;
+  padding-left: 3vw;
+  transform: rotate(45deg);
+}
+#ltr4{
+  position: absolute;
+  display: inline-block;
+  font-size: 2vw;
+  padding-top: 1.6vw;
+  padding-left: 4.2vw;
+  transform: rotate(45deg);
+}
+#ltr5{
+  position: absolute;
+  display: inline-block;
+  font-size: 2vw;
+  padding-top: 2.4vw;
+  padding-left: 5.5vw;
+  transform: rotate(44deg);
+}
+#ltr6{
+  position: absolute;
+  display: inline-block;
+  font-size: 2vw;
+  padding-top: 2.9vw;
+  padding-left: 7vw;
+  transform: rotate(40deg);
+}
+#ltr7{
+  position: absolute;
+  display: inline-block;
+  font-size: 2vw;
+  padding-top: 3.7vw;
+  padding-left: 7.8vw;
+  transform: rotate(38deg);
+}
+#ltr8{
+  position: absolute;
+  display: inline-block;
+  font-size: 2vw;
+  padding-top: 4.5vw;
+  padding-left: 9.4vw;
+  transform: rotate(35deg);
+}
+#ltr9{
+  position: absolute;
+  display: inline-block;
+  font-size: 2vw;
+  padding-top: 5.3vw;
+  padding-left: 10.6vw;
+  transform: rotate(32deg);
+}
+#ltr10{
+  position: absolute;
+  display: inline-block;
+  font-size: 2vw;
+  padding-top: 6.1vw;
+  padding-left: 12vw;
+  transform: rotate(28deg);
+}
+#ltr11{
+  position: absolute;
+  display: inline-block;
+  font-size: 2vw;
+  padding-top: 7.5vw;
+  padding-left: 14.5vw;
+  transform: rotate(23deg);
+}
+#ltr12{
+  position: absolute;
+  display: inline-block;
+  font-size: 2vw;
+  padding-top: 8.2vw;
+  padding-left: 16vw;
+  transform: rotate(21deg);
+}
+#ltr13{
+  position: absolute;
+  display: inline-block;
+  font-size: 2vw;
+  padding-top: 8.7vw;
+  padding-left: 17.6vw;
+  transform: rotate(19deg);
+}
+#ltr14{
+  position: absolute;
+  display: inline-block;
+  font-size: 2vw;
+  padding-top: 9.4vw;
+  padding-left: 18.6vw;
+  transform: rotate(16deg);
+}
+#ltr15{
+  position: absolute;
+  display: inline-block;
+  font-size: 2vw;
+  padding-top: 10vw;
+  padding-left: 19.6vw;
+  transform: rotate(14deg);
+}
+#ltr16{
+  position: absolute;
+  display: inline-block;
+  font-size: 2vw;
+  padding-top: 10.5vw;
+  padding-left: 21.2vw;
+  transform: rotate(12deg);
+}
+#ltr17{
+  position: absolute;
+  display: inline-block;
+  font-size: 2vw;
+  padding-top: 11.1vw;
+  padding-left: 22.2vw;
+  transform: rotate(10deg);
+}
+#ltr18{
+  position: absolute;
+  display: inline-block;
+  font-size: 2vw;
+  padding-top: 11.6vw;
+  padding-left: 23.5vw;
+  transform: rotate(8deg);
+}
+#ltr19{
+  position: absolute;
+  display: inline-block;
+  font-size: 2vw;
+  padding-top: 12.1vw;
+  padding-left: 24.3vw;
+  transform: rotate(6deg)
+}
+#ltr20{
+  position: absolute;
+  display: inline-block;
+  font-size: 2vw;
+  padding-top: 12.6vw;
+  padding-left: 24.6vw;
+  transform: rotate(4deg)
+}
+#ltr21{
+  position: absolute;
+  display: inline-block;
+  font-size: 2vw;
+  padding-top: 13.1vw;
+  padding-left: 26.1vw;
+  transform: rotate(2deg)
+}
+#ltr22{
+  position: absolute;
+  display: inline-block;
+  font-size: 2vw;
+  padding-top: 13.5vw;
+  padding-left: 29vw;
+  transform: rotate(1deg)
+}
+#ltr23{
+  position: absolute;
+  display: inline-block;
+  font-size: 2vw;
+  padding-top: 13.75vw;
+  padding-left: 29.8vw;
+  transform: rotate(0deg)
+}
+#ltr24{
+  position: absolute;
+  display: inline-block;
+  font-size: 2vw;
+  padding-top: 14vw;
+  padding-left: 30.5vw;
+  transform: rotate(-1deg)
+}
 
 
 
