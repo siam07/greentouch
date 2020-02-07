@@ -66,6 +66,8 @@
     background-color: #36a353 !important; 
 } 
 
+
+
 .logo.scrolled{
     position: fixed;
     top: 1.2vh;
@@ -101,7 +103,9 @@
     width: 100vw;
 }
 
-
+#overlayOpenDD a{
+  text-decoration: none;
+}
 #company{
   background-color: #34eb6b;
   color: black;

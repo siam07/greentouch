@@ -32,6 +32,22 @@ document.getElementById('overlayOpen').addEventListener('click',
 });
 
 
+document.getElementById('overlayOpenDD').addEventListener('click',
+    function(){
+        document.querySelector('.descriptionOverlay').style.display = 'block';
+});
+document.getElementById('overlayOpenDD').addEventListener('click',
+    function(){
+        document.querySelector('.descriptionBg').style.display = 'block';
+});
+document.getElementById('overlayOpenDD').addEventListener('click',
+    function(){
+        document.querySelector('.swiper-container2').style.position = 'fixed';
+});
+document.getElementById('overlayOpenDD').addEventListener('click',
+    function(){
+        document.querySelector('.swiper-container').style.position = 'fixed';
+});
 
 
 

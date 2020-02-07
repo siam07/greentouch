@@ -92,7 +92,9 @@
     height: 100vh;
     width: 100vw;
 }
-
+#overlayOpenDD a{
+  text-decoration: none;
+}
 
 #company{
   background-color: #34eb6b;
@@ -293,10 +295,10 @@ body {
 
 .detailsOverlay{
   border-radius: 5px;
-  background: rgba(255,255,255,.9);
-  margin-left: 5vw;
-  margin-right: 5vw;
-  padding: 10px;
+  background: white;
+  height: 70vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
   box-shadow: 0 5px 15px rgba(0,0,0,0.5);
   margin-top: 2vh;
   margin-bottom: 2vh; 
@@ -325,6 +327,65 @@ body {
 }
 
 
+
+
+.gtl img{
+  position: relative;
+  border-radius: 5px;
+  padding: 0;
+  height: 50.5vh;
+
+  z-index: 5;
+}
+
+#gtl h1{
+  position: relative;
+  font-family: gothic;
+  color: white;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  top: -45vh;
+  left: -15vw;
+  text-shadow: 1px 1px 5px #919191,
+  1px 2px 1px #919191,
+  1px 3px 1px #919191,
+  1px 4px 1px #919191,
+  1px 5px 1px #919191,
+  1px 6px 1px #919191,
+  1px 12px 6px rgba(16,16,16,0.4),
+  1px 16px 10px rgba(16,16,16,0.2),
+  1px 19px 35px rgba(16,16,16,0.2),
+  1px 23px 60px rgba(16,16,16,0.4);
+  font-size: 8vw;
+  transition: 1s ease-in-out;
+  cursor: default;
+  z-index: 6;
+}
+#gtl h1:hover{
+  transform: scale(1.3);
+}
+#gtl p{
+  position: relative;
+  font-family: gothic;
+  color: black;
+  font-weight: bold;
+  top: -22vw;
+  height: 2vw;
+  font-size: 3vw;
+  cursor: default;
+  transition: .4s;
+  z-index: 6;
+}
+#gtl p:hover{
+  transform: translate(-2%,-5%) scale(1.1);
+}
+#paraLength{
+  padding-left: 3vw;
+  padding-right: 2vw;
+  text-align: justify;
+
+}
 
 
 
